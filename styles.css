@@ -1,3 +1,5 @@
+/* General Styles */
+
 * {
     padding: 0;
     margin: 0;
@@ -7,4 +9,43 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+/* Header Styles */
+
+#header {
+    background-color: #1F2937;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#header h2 {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 15px;
+}
+
+#header ul {
+    gap: 20px;
+}
+
+#header li {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: lighter;
+    padding: 15px;
+}
+
+/* Body1 Styles */
+
+#body1 {
+    background-color: #1F2937;
 }
