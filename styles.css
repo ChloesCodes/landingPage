@@ -21,16 +21,16 @@ ul {
 
 #header {
     background-color: #1F2937;
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    align-items: center;
+    flex-basis: 100%;
 }
 
 #header h2 {
     font-size: 24px;
     color: #F9FAF8;
-    padding: 15px;
 }
 
 #header ul {
@@ -47,14 +47,12 @@ ul {
 /* Body1 Styles */
 
 #body1 {
-    align-items: center;
-    background-color: #1F2937;
-    color: #E5E7EB;
-    padding: 15px;
-    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    flex-basis: 100%;
 }
 
 .column {
@@ -86,5 +84,5 @@ ul {
     background-color: #6d747d;
     color: white;
     padding: 50px 75px;
-    
+
 }
